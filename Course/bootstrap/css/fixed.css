@@ -1,7 +1,12 @@
-body{
-    position: relative; 
-}
 
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+body{
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+    color: #505962;
+  }
+  
 .navbar{
     text-transform: uppercase;
     font-weight: 700px;
@@ -11,7 +16,6 @@ body{
 }
 
 .navbar-dark .navbar-nav .nav-link{
-    color:white;
     padding-top: .8rem;
 }
 
@@ -29,6 +33,7 @@ body{
 }
 
 .home-wrap{
+    clip: rect(0, auto, auto, 0);
     position: absolute;
     top: 0;
     left: 0;
@@ -56,7 +61,7 @@ body{
     width:100%;
     max-width: 100%;
     position: absolute;
-    top: 30%;
+    top: 38%;
     z-index: 1;
     color: white;
     text-transform: uppercase;
@@ -71,13 +76,33 @@ body{
 }
 
 .caption h3{
-    font-size: 2rem;
+    font-size: 1rem;
     text-shadow: .1rem .1rem .5rem black;
     padding-bottom: 1.6rem;
-    text-transform: capitalize;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+    word-spacing: .5rem;
   }
 
-  .narrow{
+.caption .btn-lg{
+    border-width: medium;
+    border-radius: 0;
+    padding: .6rem 1.3rem;
+    font-size: 1rem;
+    color: white;
+    border-color: white;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .caption .btn-lg:hover{
+    background-color: white;
+    border-color: white;
+    color: black;
+
+  }
+  
+.narrow{
     width:75%;
     margin: 1.5rem auto;
     padding-top: 2rem;
