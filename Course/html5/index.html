@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>HTML5 Basics</title>
+        <!-- Embedded Style-->
+        <link rel="stylesheet" href="css/style.css" />
+        <style>
+            ul{
+                list-style-type: none;
+                color: blue;
+            }
+            ul > li{
+                list-style: none;
+                text-transform: uppercase;
+                display: block;
+                text-decoration: none;
+            }
+            .header-para{
+                border: 2px solid;
+                border-color: aqua;
+                width:500px;
+            }
+        </style>
+    </head>
+    <body>
+        <header role="banner">
+            <!-- Inline style-->
+            <h1 style="font-size: 30px;">This is a HTML 5 header</h1>
+            <p class="header-para">This is a header associated paragraph</p>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <article>
+            <section>
+                <p>One article can have multiple sections. This is section 1</p>
+            </section>
+            <section>
+                <p>One article can have multiple sections. This is section 2</p>
+            </section>
+        </article>
+        <aside>
+            <p>This is another section. This is from aside section</p>
+        </aside>
+        <footer>
+            <p>Created by Somnath Musib</p>
+        </footer>
+    </body>
+</html>

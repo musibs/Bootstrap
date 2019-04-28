@@ -1,0 +1,69 @@
+body{
+    position: relative; 
+}
+
+.landing {
+    background-image: url(../img/computers.png);
+    color: white;
+    text-align: center;
+    z-index: -1;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+    height: 100vh;
+}
+
+.landing h1{
+    font-size: 50px;
+   color: bisque;
+   margin-top: 0;
+   padding-bottom: 10px;
+   text-transform: uppercase;      
+}
+
+.landing .btn-lg{
+    color: white;
+    border-width: medium;
+    border-radius: 0;
+    
+}
+
+.container{
+    margin: 0;
+}
+.jumbotron {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .navbar-nav a{
+      text-transform: uppercase;
+  }
+
+  .btn-outline{
+      color: white;
+  }
+  .btn-lg{
+    border-width: medium;
+    border-radius: 0;
+    padding: .6rem 1.3rem;
+    font-size: 1.1rem;
+    background-color: white;
+  }
+
+  .product{
+    height: 50vh;
+    text-align: center;
+    background-color: lightgray;
+  }
+
+  .product h3{
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .product svg.svg-inline--fa{
+      color: #1ebba3;
+  }
